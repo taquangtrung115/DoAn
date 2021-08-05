@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    style="@style/CardView.Light"
+    app:cardCornerRadius="8dp"
+    android:elevation="3dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp">
+
+
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avbanhducchay" />
+
+
+    <TextView
+        android:id="@+id/txtNameFood"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="8dp"
+        android:background="#DA1212"
+        android:text="Latte"
+        android:textColor="#F8F5F5" />
+
+<!--    <ToggleButton-->
+<!--        android:id="@+id/favBtn"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="309dp"-->
+<!--        android:layout_marginLeft="309dp"-->
+<!--        android:layout_marginTop="161dp"-->
+<!--        android:layout_marginEnd="56dp"-->
+<!--        android:layout_marginRight="56dp"-->
+<!--        android:layout_marginBottom="9dp"-->
+<!--        android:background="@drawable/ic_baseline_favorite_24"-->
+<!--        android:textOff=""-->
+<!--        android:textOn="" />-->
+
+    <!--    <TextView-->
+<!--        android:id="@+id/likeCountTextView"-->
+<!--        style="@style/TextAppearance.AppCompat.Body1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="21dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="349dp"-->
+<!--        android:layout_marginLeft="349dp"-->
+<!--        android:layout_marginTop="164dp"-->
+<!--        android:layout_marginEnd="27dp"-->
+<!--        android:layout_marginRight="27dp"-->
+<!--        android:layout_marginBottom="15dp"-->
+<!--        android:background="#E80A0A"-->
+<!--        android:text="0"-->
+<!--        android:textColor="#F4F1F1" />-->
+</androidx.cardview.widget.CardView>
